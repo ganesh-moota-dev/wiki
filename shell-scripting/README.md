@@ -30,7 +30,7 @@
 
 
 6. Click "Esc" to exit from insert mode
-7. Write ":wq" at the end of the file to save and exit.
+7. Write ":wq!" at the end of the file and hit "Ente&#x72;_"_ to save and exit.
 
 ## hello\_world.sh
 
@@ -42,14 +42,16 @@ echo "hello world"
 
 ## How to run the script file?
 
-* make sure script has execute permission "rwx".
-*   run the script file using:
+*   make sure script has execute permission, if not grant execute permission:
 
-    ```
-    ./script.sh
+    <pre><code><strong>sudo chmod +x script.sh
+    </strong></code></pre>
+*   execute the script file:
 
+    <pre><code><strong>./script.sh
+    </strong>
     bash script.sh
-    ```
+    </code></pre>
 
 
-* Press "Ctrl + C" to terminate script
+* Press "Ctrl + C" to abort the script&#x20;
