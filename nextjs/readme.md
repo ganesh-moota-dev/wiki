@@ -5,4 +5,5 @@ Next.js is a React framework that provides built-in features to create productio
 Next.js simplifies the process of building web applications with features like routing, API handling, optimized rendering, and styling.
 
 ### Table of Content:
-1. [NextJs features](./getting-started/nextjs-features.md.md)
+1. [Out of the box features provided by NextJs](./getting-started/nextjs-features.md)
+2. [Types of Components in NextJs](./concepts/types-of-components-in-nextjs.md)
